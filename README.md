@@ -1,5 +1,7 @@
 # Realtime Code Editor
 
+## Live Demo - https://realtime-collaborative-code-editor-d1gk.onrender.com
+
 A collaborative, realtime code editor where multiple users can join a room, edit code together, see live updates, switch languages, and compile/run code.
 
 ## ✨ Features
@@ -64,19 +66,3 @@ npm run dev
 cd frontend
 npm run dev
 ```
-
-Frontend should start on Vite’s default port, while the backend runs on port `5000`.
-
-## 📝 Notes
-- The backend also serves the frontend build from `frontend/dist`.
-- Code compilation requests are sent to a local execution API at:
-  ```
-  http://127.0.0.1:2000/api/v2/execute
-  ```
-
----
-
-If you want, I can also:
-- add badges,
-- add screenshots,
-- or improve setup/production instructions.
