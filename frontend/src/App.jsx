@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import Editor from "@monaco-editor/react";
 import {v4 as uuid} from 'uuid';
 
-const socket = io("http://localhost:5000");
+const socket = io("https://realtime-collaborative-code-editor-d1gk.onrender.com");
 
 const PISTON_RUNTIME = {
   javascript: { language: "node", version: "18.15.0" },
